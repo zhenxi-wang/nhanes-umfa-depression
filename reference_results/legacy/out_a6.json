@@ -1,0 +1,489 @@
+{
+ "weighted_sd": {
+  "models": [
+   {
+    "analysis": "Unweighted within-cycle SD (primary)",
+    "n": 24326,
+    "OR": "1.11 (1.04-1.19)",
+    "p": "0.003",
+    "_or": 1.1110929557357716,
+    "_lo": 1.0365168815038346,
+    "_hi": 1.1910346838678925,
+    "_p": 0.003380990350662364,
+    "_b": 0.10534417568652417,
+    "_se": 0.0349556985356165
+   },
+   {
+    "analysis": "Survey-weighted within-cycle mean and SD",
+    "n": 24326,
+    "OR": "1.11 (1.04-1.19)",
+    "p": "0.003",
+    "_or": 1.1105650366343864,
+    "_lo": 1.0365404073158695,
+    "_hi": 1.189876141720822,
+    "_p": 0.0033006715966652903,
+    "_b": 0.1048689278192695,
+    "_se": 0.0347051740217678
+   }
+  ],
+  "sds": [
+   {
+    "cycle": "2011-2012",
+    "sd_unweighted": 0.8482,
+    "sd_weighted": 0.8485
+   },
+   {
+    "cycle": "2013-2014",
+    "sd_unweighted": 0.9045,
+    "sd_weighted": 0.9117
+   },
+   {
+    "cycle": "2015-2016",
+    "sd_unweighted": 0.8956,
+    "sd_weighted": 0.9366
+   },
+   {
+    "cycle": "2017-Mar 2020",
+    "sd_unweighted": 0.8052,
+    "sd_weighted": 0.8126
+   },
+   {
+    "cycle": "Aug 2021-Aug 2023",
+    "sd_unweighted": 0.8189,
+    "sd_weighted": 0.7946
+   }
+  ]
+ },
+ "weighted_quantiles": {
+  "quartiles": {
+   "quartiles": "survey-weighted",
+   "Q1": "1.00 (ref)",
+   "Q2": "1.23 (1.02-1.48)",
+   "Q3": "1.16 (0.94-1.43)",
+   "Q4": "1.28 (1.01-1.62)",
+   "p_joint": "0.103"
+  },
+  "thresholds": [
+   {
+    "n": 24326,
+    "OR": "1.06 (0.82-1.37)",
+    "p": "0.638",
+    "_or": 1.0622621289103806,
+    "_lo": 0.8235946035579051,
+    "_hi": 1.370092549954255,
+    "_p": 0.6382773867499473,
+    "_b": 0.06040071807928078,
+    "_se": 0.1280320556859015,
+    "threshold": "UMFA > weighted 90th pct",
+    "n_exposed": 2258
+   },
+   {
+    "n": 24326,
+    "OR": "1.45 (1.07-1.97)",
+    "p": "0.018",
+    "_or": 1.448812084813414,
+    "_lo": 1.0675279846124437,
+    "_hi": 1.9662776876649601,
+    "_p": 0.017925561512363256,
+    "_b": 0.37074396880946653,
+    "_se": 0.15365114482952688,
+    "threshold": "UMFA > weighted 95th pct",
+    "n_exposed": 1112
+   }
+  ]
+ },
+ "spline_confounders": {
+  "n": 24326,
+  "OR": "1.11 (1.03-1.19)",
+  "p": "0.006",
+  "_or": 1.1058863559428755,
+  "_lo": 1.0294489034328569,
+  "_hi": 1.1879993540061877,
+  "_p": 0.00642027261913695,
+  "_b": 0.1006471455087151,
+  "_se": 0.036035033828945774
+ },
+ "selection": {
+  "table": [
+   {
+    "Characteristic": "Age, years",
+    "Included (n=24,326)": "48.63",
+    "Excluded for incomplete PHQ-9 (n=2,677)": "48.83"
+   },
+   {
+    "Characteristic": "Female, %",
+    "Included (n=24,326)": "52.9",
+    "Excluded for incomplete PHQ-9 (n=2,677)": "58.8"
+   },
+   {
+    "Characteristic": "NH White, %",
+    "Included (n=24,326)": "42.7",
+    "Excluded for incomplete PHQ-9 (n=2,677)": "30.9"
+   },
+   {
+    "Characteristic": "UMFA, nmol/L (GM)",
+    "Included (n=24,326)": "0.75",
+    "Excluded for incomplete PHQ-9 (n=2,677)": "0.71"
+   },
+   {
+    "Characteristic": "5-MTHF, nmol/L (GM)",
+    "Included (n=24,326)": "32.83",
+    "Excluded for incomplete PHQ-9 (n=2,677)": "31.83"
+   },
+   {
+    "Characteristic": "Any supplement, %",
+    "Included (n=24,326)": "53.4",
+    "Excluded for incomplete PHQ-9 (n=2,677)": "47.4"
+   },
+   {
+    "Characteristic": "Income-to-poverty ratio",
+    "Included (n=24,326)": "2.59",
+    "Excluded for incomplete PHQ-9 (n=2,677)": "2.24"
+   }
+  ],
+  "by_cycle": {
+   "2011-2012": 10.9,
+   "2013-2014": 8.5,
+   "2015-2016": 9.7,
+   "2017-Mar 2020": 6.7,
+   "Aug 2021-Aug 2023": 13.4
+  },
+  "umfa_t_p": 0.000948729949646631
+ },
+ "discovery_replication": [
+  {
+   "sample": "Discovery: Aug 2021-Aug 2023 (cycle used for the exposure screen)",
+   "n": 5028,
+   "OR": "1.15 (1.06-1.25)",
+   "p": "0.001",
+   "_or": 1.1485121574083264,
+   "_lo": 1.0579405397927284,
+   "_hi": 1.2468377249000804,
+   "_p": 0.0011947797136199801,
+   "_b": 0.13846732855753482,
+   "_se": 0.04132765899377658
+  },
+  {
+   "sample": "Out-of-screen replication: 2011-March 2020 (four independent cycles)",
+   "n": 19298,
+   "OR": "1.11 (1.01-1.21)",
+   "p": "0.027",
+   "_or": 1.1055762720515692,
+   "_lo": 1.011852652464112,
+   "_hi": 1.207981113007753,
+   "_p": 0.02684059828326163,
+   "_b": 0.10036671219782557,
+   "_se": 0.04456801326788212
+  },
+  {
+   "sample": "Pooled: 2011-2023",
+   "n": 24326,
+   "OR": "1.11 (1.04-1.19)",
+   "p": "0.003",
+   "_or": 1.1110929557357716,
+   "_lo": 1.0365168815038346,
+   "_hi": 1.1910346838678925,
+   "_p": 0.003380990350662364,
+   "_b": 0.10534417568652417,
+   "_se": 0.0349556985356165
+  }
+ ],
+ "heterogeneity_m3": {
+  "pooled": 1.127883619576155,
+  "Q": 5.253809783106473,
+  "p": 0.26223210932889934,
+  "I2": 23.864773085962785,
+  "per_cycle": [
+   {
+    "cycle": "2011-2012",
+    "b": 0.2700363580312472,
+    "se": 0.09665747601164335
+   },
+   {
+    "cycle": "2013-2014",
+    "b": 0.028590922359615543,
+    "se": 0.08728508927835583
+   },
+   {
+    "cycle": "2015-2016",
+    "b": 0.13379681062056265,
+    "se": 0.10422279096557445
+   },
+   {
+    "cycle": "2017-Mar 2020",
+    "b": 0.022970601280336057,
+    "se": 0.07842988171598192
+   },
+   {
+    "cycle": "Aug 2021-Aug 2023",
+    "b": 0.13846732855753482,
+    "se": 0.04132765899377658
+   }
+  ]
+ },
+ "biomarker_n": {
+  "5-Methyltetrahydrofolate": 24326,
+  "Total serum folate": 24320,
+  "Red-cell folate": 24127,
+  "MeFox": 24326,
+  "Unmetabolised folic acid": 24326,
+  "UMFA fraction (% of quantified folate)": 24320
+ },
+ "by_cycle_desc": [
+  {
+   "Survey cycle": "2011-2012",
+   "n": "4,529",
+   "5-MTHF": "35.43 (33.92-37.01)",
+   "UMFA": "0.87 (0.82-0.92)",
+   "MeFox": "1.56 (1.48-1.65)",
+   "Total folate": "38.84 (37.41-40.32)",
+   "RBC folate": "1065.43 (1023.87-1108.68)",
+   "UMFA fraction, %": "2.13 (2.01-2.27)",
+   "PHQ-9>=10, %": "7.6 (6.2-9.4)",
+   "PHQ-9>=15, %": "3.2 (2.4-4.1)",
+   "Suicidal ideation, %": "3.1 (2.4-4.2)"
+  },
+  {
+   "Survey cycle": "2013-2014",
+   "n": "5,120",
+   "5-MTHF": "36.73 (35.38-38.13)",
+   "UMFA": "0.95 (0.91-1.00)",
+   "MeFox": "1.64 (1.56-1.72)",
+   "Total folate": "39.51 (38.10-40.96)",
+   "RBC folate": "1155.06 (1118.15-1193.19)",
+   "UMFA fraction, %": "2.29 (2.20-2.39)",
+   "PHQ-9>=10, %": "8.7 (7.7-9.8)",
+   "PHQ-9>=15, %": "3.1 (2.7-3.6)",
+   "Suicidal ideation, %": "3.4 (2.8-4.2)"
+  },
+  {
+   "Survey cycle": "2015-2016",
+   "n": "4,820",
+   "5-MTHF": "34.76 (33.50-36.06)",
+   "UMFA": "0.77 (0.73-0.81)",
+   "MeFox": "1.48 (1.43-1.53)",
+   "Total folate": "37.40 (36.00-38.85)",
+   "RBC folate": "1145.48 (1109.76-1182.35)",
+   "UMFA fraction, %": "1.96 (1.88-2.04)",
+   "PHQ-9>=10, %": "7.5 (6.5-8.7)",
+   "PHQ-9>=15, %": "2.8 (2.2-3.6)",
+   "Suicidal ideation, %": "3.4 (2.6-4.5)"
+  },
+  {
+   "Survey cycle": "2017-Mar 2020",
+   "n": "4,829",
+   "5-MTHF": "32.17 (30.68-33.74)",
+   "UMFA": "0.72 (0.68-0.77)",
+   "MeFox": "1.35 (1.29-1.42)",
+   "Total folate": "34.35 (32.75-36.03)",
+   "RBC folate": "1123.41 (1093.84-1153.77)",
+   "UMFA fraction, %": "2.00 (1.90-2.10)",
+   "PHQ-9>=10, %": "8.8 (7.3-10.7)",
+   "PHQ-9>=15, %": "2.7 (2.1-3.5)",
+   "Suicidal ideation, %": "3.3 (2.8-4.0)"
+  },
+  {
+   "Survey cycle": "Aug 2021-Aug 2023",
+   "n": "5,028",
+   "5-MTHF": "29.66 (28.61-30.75)",
+   "UMFA": "0.57 (0.55-0.60)",
+   "MeFox": "1.40 (1.32-1.48)",
+   "Total folate": "31.90 (30.82-33.01)",
+   "RBC folate": "1083.51 (1061.27-1106.21)",
+   "UMFA fraction, %": "1.70 (1.62-1.78)",
+   "PHQ-9>=10, %": "12.4 (11.0-14.0)",
+   "PHQ-9>=15, %": "4.1 (3.4-5.0)",
+   "Suicidal ideation, %": "5.2 (4.2-6.3)"
+  }
+ ],
+ "corr": [
+  {
+   "": "5-MTHF",
+   "5-MTHF": 1.0,
+   "UMFA": 0.43,
+   "MeFox": 0.31,
+   "Total folate": 0.99,
+   "RBC folate": 0.69,
+   "UMFA fraction": -0.23
+  },
+  {
+   "": "UMFA",
+   "5-MTHF": 0.43,
+   "UMFA": 1.0,
+   "MeFox": 0.34,
+   "Total folate": 0.52,
+   "RBC folate": 0.34,
+   "UMFA fraction": 0.78
+  },
+  {
+   "": "MeFox",
+   "5-MTHF": 0.31,
+   "UMFA": 0.34,
+   "MeFox": 1.0,
+   "Total folate": 0.33,
+   "RBC folate": 0.38,
+   "UMFA fraction": 0.1
+  },
+  {
+   "": "Total folate",
+   "5-MTHF": 0.99,
+   "UMFA": 0.52,
+   "MeFox": 0.33,
+   "Total folate": 1.0,
+   "RBC folate": 0.69,
+   "UMFA fraction": -0.13
+  },
+  {
+   "": "RBC folate",
+   "5-MTHF": 0.69,
+   "UMFA": 0.34,
+   "MeFox": 0.38,
+   "Total folate": 0.69,
+   "RBC folate": 1.0,
+   "UMFA fraction": -0.12
+  },
+  {
+   "": "UMFA fraction",
+   "5-MTHF": -0.23,
+   "UMFA": 0.78,
+   "MeFox": 0.1,
+   "Total folate": -0.13,
+   "RBC folate": -0.12,
+   "UMFA fraction": 1.0
+  }
+ ],
+ "collinearity": {
+  "condition_number": 25.5,
+  "rank": 60,
+  "ncol": 60,
+  "vif": {
+   "UMFA": 1.44,
+   "5-MTHF": 1.74,
+   "MeFox": 1.61
+  }
+ },
+ "ordinal": {
+  "rows": [
+   {
+    "cutpoint": "PHQ-9 >= 5",
+    "n": 24326,
+    "OR": "1.01 (0.96-1.06)",
+    "p": "0.685",
+    "_b": 0.01041976540956645,
+    "_se": 0.025601669722705302
+   },
+   {
+    "cutpoint": "PHQ-9 >= 10",
+    "n": 24326,
+    "OR": "1.11 (1.04-1.19)",
+    "p": "0.003",
+    "_b": 0.10534417568652417,
+    "_se": 0.0349556985356165
+   },
+   {
+    "cutpoint": "PHQ-9 >= 15",
+    "n": 24326,
+    "OR": "1.13 (1.01-1.26)",
+    "p": "0.030",
+    "_b": 0.1215356457410667,
+    "_se": 0.055223043237551776
+   }
+  ],
+  "common_or": 1.054567091241101,
+  "Q": 6.548719117177244,
+  "p": 0.03784109647566603
+ },
+ "selection_folate": {
+  "table": [
+   {
+    "Characteristic": "Age, years",
+    "Folate assayed": "48.65",
+    "Not assayed": "47.79"
+   },
+   {
+    "Characteristic": "Female, %",
+    "Folate assayed": "53.5",
+    "Not assayed": "54.2"
+   },
+   {
+    "Characteristic": "NH White, %",
+    "Folate assayed": "41.5",
+    "Not assayed": "32.3"
+   },
+   {
+    "Characteristic": "Income-to-poverty ratio",
+    "Folate assayed": "2.56",
+    "Not assayed": "2.25"
+   },
+   {
+    "Characteristic": "Any supplement, %",
+    "Folate assayed": "52.9",
+    "Not assayed": "47.2"
+   },
+   {
+    "Characteristic": "PHQ-9 >= 10, %",
+    "Folate assayed": "9.9",
+    "Not assayed": "11.0"
+   },
+   {
+    "Characteristic": "PHQ-9 score",
+    "Folate assayed": "3.44",
+    "Not assayed": "3.67"
+   }
+  ],
+  "n_missing": 2613,
+  "n_present": 27003,
+  "by_cycle": {
+   "2011-2012": 12.4,
+   "2013-2014": 7.5,
+   "2015-2016": 9.8,
+   "2017-Mar 2020": 6.7,
+   "Aug 2021-Aug 2023": 7.8
+  }
+ },
+ "selection_weighted": [
+  {
+   "Characteristic": "Age, years",
+   "Included": 47.39,
+   "Excluded": 46.41,
+   "SMD": -0.055
+  },
+  {
+   "Characteristic": "Female",
+   "Included": 0.5,
+   "Excluded": 0.57,
+   "SMD": 0.138
+  },
+  {
+   "Characteristic": "Income-to-poverty ratio",
+   "Included": 3.02,
+   "Excluded": 2.61,
+   "SMD": -0.244
+  },
+  {
+   "Characteristic": "Any supplement",
+   "Included": 0.56,
+   "Excluded": 0.51,
+   "SMD": -0.093
+  },
+  {
+   "Characteristic": "UMFA, log nmol/L",
+   "Included": -0.27,
+   "Excluded": -0.31,
+   "SMD": -0.042
+  },
+  {
+   "Characteristic": "5-MTHF, log nmol/L",
+   "Included": 3.51,
+   "Excluded": 3.49,
+   "SMD": -0.047
+  }
+ ],
+ "risk_diff": {
+  "p10": 8.311599651936076,
+  "p99": 13.010752517762164,
+  "diff": 4.699152865826088,
+  "lo": 1.3506774890296995,
+  "hi": 8.047628242622476
+ }
+}

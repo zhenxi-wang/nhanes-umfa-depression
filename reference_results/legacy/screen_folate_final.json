@@ -1,0 +1,44 @@
+[
+ {
+  "Biomarker": "5-Methyltetrahydrofolate",
+  "n": 5028,
+  "OR": "0.84 (0.77-0.92)",
+  "p": "0.0002"
+ },
+ {
+  "Biomarker": "Unmetabolised folic acid",
+  "n": 5028,
+  "OR": "1.09 (1.04-1.15)",
+  "p": "0.0003"
+ },
+ {
+  "Biomarker": "MeFox",
+  "n": 5028,
+  "OR": "1.07 (0.98-1.17)",
+  "p": "0.1211"
+ },
+ {
+  "Biomarker": "Red-cell folate",
+  "n": 4992,
+  "OR": "0.94 (0.83-1.06)",
+  "p": "0.2822"
+ },
+ {
+  "Biomarker": "Tetrahydrofolate",
+  "n": 5028,
+  "OR": "0.98 (0.90-1.07)",
+  "p": "0.5991"
+ },
+ {
+  "Biomarker": "5-Formyltetrahydrofolate",
+  "n": 5028,
+  "OR": "1.04 (1.00-1.09)",
+  "p": "0.0455"
+ },
+ {
+  "Biomarker": "5,10-Methenyltetrahydrofolate",
+  "n": 5028,
+  "OR": "1.07 (1.03-1.10)",
+  "p": "0.0004"
+ }
+]

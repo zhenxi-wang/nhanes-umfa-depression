@@ -1,0 +1,131 @@
+{
+  "validation_date": "2026-11-04",
+  "python_version": "3.12.10",
+  "platform": "Windows",
+  "packages": {
+    "numpy": "2.5.1",
+    "pandas": "3.0.5",
+    "scipy": "1.18.0",
+    "scikit-learn": "1.9.0",
+    "matplotlib": "3.11.1",
+    "Pillow": "12.3.0"
+  },
+  "python_source_files_syntax_checked": 39,
+  "public_input_fingerprints_verified": 129,
+  "analytic_sample_rebuilt_from_raw": 24326,
+  "analytic_sample_by_cycle": {
+    "2011-2012": 4529,
+    "2013-2014": 5120,
+    "2015-2016": 4820,
+    "2017-March 2020": 4829,
+    "August 2021-August 2023": 5028
+  },
+  "primary_imputations_regenerated": 30,
+  "primary_model_refit": {
+    "status": "passed",
+    "results": {
+      "UMFA": {
+        "est": 1.1155211654759016,
+        "lo": 1.040458407425754,
+        "hi": 1.195999245855017,
+        "p": 0.0024683243624240158,
+        "beta": 0.10932170869153256,
+        "se": 0.035035021769548085,
+        "within": 0.00122491432151031,
+        "between": 2.456544079740142e-06,
+        "df": 84.88968211171371,
+        "m": 30,
+        "n": 24326
+      },
+      "5-MTHF": {
+        "est": 0.9772761027377155,
+        "lo": 0.8866563147365014,
+        "hi": 1.077157592077881,
+        "p": 0.6398008883637295,
+        "beta": -0.02298606426648967,
+        "se": 0.04894163012559839,
+        "within": 0.0023888577957792787,
+        "between": 6.2180937789691445e-06,
+        "df": 84.83668883464615,
+        "m": 30,
+        "n": 24326
+      },
+      "MeFox": {
+        "est": 0.9930810165798285,
+        "lo": 0.9137763135811867,
+        "hi": 1.079268406100574,
+        "p": 0.8686522903519361,
+        "beta": -0.006943030571375024,
+        "se": 0.04185778287838943,
+        "within": 0.001747887433263248,
+        "between": 4.051504094654544e-06,
+        "df": 84.8619832609748,
+        "m": 30,
+        "n": 24326
+      },
+      "formal_contrast": {
+        "est": 0.876071322520171,
+        "lo": 0.75967105561611,
+        "hi": 1.0103069696656812,
+        "p": 0.06848228602059105,
+        "beta": -0.13230777295802224,
+        "se": 0.07170087620559165,
+        "within": 0.005133435268302468,
+        "between": 7.335851948816417e-06,
+        "df": 84.94069574368359,
+        "m": 30
+      }
+    }
+  },
+  "initial_screen_tests_regenerated": 96,
+  "initial_screen_max_absolute_p_difference": 4.0023540037736893e-14,
+  "upper_tail_counts_recalculated": [
+    {
+      "threshold": 2,
+      "n": 2057,
+      "pct": 8.45597303296884,
+      "cases": 210,
+      "weighted_pct": 9.088362065246647,
+      "n_equal": 14
+    },
+    {
+      "threshold": 4,
+      "n": 1166,
+      "pct": 4.793225355586615,
+      "cases": 137,
+      "weighted_pct": 5.183595747830554,
+      "n_equal": 2
+    },
+    {
+      "threshold": 8,
+      "n": 721,
+      "pct": 2.9639069308558743,
+      "cases": 96,
+      "weighted_pct": 3.152405675832327,
+      "n_equal": 0
+    }
+  ],
+  "focused_statistical_helper_tests": {
+    "run": 6,
+    "passed": 6
+  },
+  "raw_missingness_complete_case_simple_imputation_and_bh_audits": "passed",
+  "english_table_exports_tested": 27,
+  "historical_table_export_from_aggregate_fixtures": "passed",
+  "current_main_figure_exports_tested": {
+    "figures": 3,
+    "formats": [
+      "PNG",
+      "TIFF",
+      "PDF",
+      "SVG"
+    ],
+    "input_provenance": "Aggregate reference model summaries plus freshly rebuilt analytic sample; export compatibility check, not full model refit."
+  },
+  "all_stage_dry_run": "passed",
+  "historical_seven_row_final_eligibility_screen": "Exact generating script not recovered. Diagnostic reanalysis differs from archived summary. Requires author verification.",
+  "full_second_run_of_every_model": "not performed during packaging",
+  "network_redownload_of_all_inputs": "not performed",
+  "participant_level_files_distributed": false,
+  "original_project_files_modified": false
+}

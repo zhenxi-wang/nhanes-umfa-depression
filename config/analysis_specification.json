@@ -1,0 +1,35 @@
+{
+  "analytic_sample_n": 24326,
+  "cycles": {
+    "G": "2011-2012",
+    "H": "2013-2014",
+    "I": "2015-2016",
+    "P": "2017-March 2020",
+    "L": "August 2021-August 2023"
+  },
+  "primary_model": "Three-species Model 3: UMFA, 5-MTHF and MeFox",
+  "mice": {
+    "completed_datasets": 30,
+    "chains": 3,
+    "burn_in_sweeps": 20,
+    "save_every_sweeps": 5,
+    "final_sweep": 70,
+    "seeds": [
+      20261104,
+      20261105,
+      20261106
+    ],
+    "method": "Predictive mean matching; five donors; first canonical variate for multicategory targets",
+    "design_predictors": "Log pooled weights and full PSU fixed effects nested within stratum and cycle"
+  },
+  "pooling": {
+    "scalar": "Rubin total variance and Barnard-Rubin finite-sample degrees of freedom",
+    "multiple_parameters": "D1 pooled Wald statistic and Reiter finite-sample degrees of freedom"
+  },
+  "multiplicity": {
+    "biomarker_screen_family": 82,
+    "all_recorded_screen_tests": 96,
+    "secondary_exploratory_family": 26
+  },
+  "scope": "Some original simple-imputation exploratory analyses remain separate sensitivity analyses; see docs/ANALYSIS_MAP.md."
+}

@@ -1,0 +1,210 @@
+[
+  {
+    "analysis": "Outcome: PHQ-9 >= 15",
+    "p_exact": 0.03039753248955447,
+    "q_exact": 0.13172264078806936,
+    "q_display": "0.132",
+    "current_q": 0.132,
+    "matches": true
+  },
+  {
+    "analysis": "Outcome: Suicidal ideation",
+    "p_exact": 0.29590970737119243,
+    "q_exact": 0.4808532744781877,
+    "q_display": "0.481",
+    "current_q": 0.481,
+    "matches": true
+  },
+  {
+    "analysis": "Outcome: PHQ-9 >= 5",
+    "p_exact": 0.6850108585691728,
+    "q_exact": 0.8481086820380235,
+    "q_display": "0.848",
+    "current_q": 0.848,
+    "matches": true
+  },
+  {
+    "analysis": "Outcome: PHQ-9 total score",
+    "p_exact": 0.10312206919814278,
+    "q_exact": 0.20624413839628555,
+    "q_display": "0.206",
+    "current_q": 0.206,
+    "matches": true
+  },
+  {
+    "analysis": "Outcome: Somatic subscale",
+    "p_exact": 0.26771141264821824,
+    "q_exact": 0.4640331152569116,
+    "q_display": "0.464",
+    "current_q": 0.464,
+    "matches": true
+  },
+  {
+    "analysis": "Outcome: Cognitive-affective subscale",
+    "p_exact": 0.07200403679076185,
+    "q_exact": 0.15600874637998402,
+    "q_display": "0.156",
+    "current_q": 0.156,
+    "matches": true
+  },
+  {
+    "analysis": "Quartile Q4 vs Q1: 5-MTHF",
+    "p_exact": 0.8497422815340423,
+    "q_exact": 0.8837319727954039,
+    "q_display": "0.884",
+    "current_q": 0.884,
+    "matches": true
+  },
+  {
+    "analysis": "Quartile joint test: 5-MTHF",
+    "p_exact": 0.7670767927581579,
+    "q_exact": 0.8837319727954039,
+    "q_display": "0.884",
+    "current_q": 0.884,
+    "matches": true
+  },
+  {
+    "analysis": "Quartile trend (quartile median): 5-MTHF",
+    "p_exact": 0.8250568868912564,
+    "q_exact": 0.8837319727954039,
+    "q_display": "0.884",
+    "current_q": 0.884,
+    "matches": true
+  },
+  {
+    "analysis": "Quartile trend (quartile rank): 5-MTHF",
+    "p_exact": 0.7963535455665688,
+    "q_exact": 0.8837319727954039,
+    "q_display": "0.884",
+    "current_q": 0.884,
+    "matches": true
+  },
+  {
+    "analysis": "Quartile Q4 vs Q1: UMFA",
+    "p_exact": 0.022349365874756645,
+    "q_exact": 0.11621670254873455,
+    "q_display": "0.116",
+    "current_q": 0.116,
+    "matches": true
+  },
+  {
+    "analysis": "Quartile joint test: UMFA",
+    "p_exact": 0.06128531098392613,
+    "q_exact": 0.15600874637998402,
+    "q_display": "0.156",
+    "current_q": 0.156,
+    "matches": true
+  },
+  {
+    "analysis": "Quartile trend (quartile median): UMFA",
+    "p_exact": 0.06033454059687343,
+    "q_exact": 0.15600874637998402,
+    "q_display": "0.156",
+    "current_q": 0.156,
+    "matches": true
+  },
+  {
+    "analysis": "Quartile trend (quartile rank): UMFA",
+    "p_exact": 0.05591583387359705,
+    "q_exact": 0.15600874637998402,
+    "q_display": "0.156",
+    "current_q": 0.156,
+    "matches": true
+  },
+  {
+    "analysis": "Quartile Q4 vs Q1: Total folate",
+    "p_exact": 0.3645596916334912,
+    "q_exact": 0.5575618813218102,
+    "q_display": "0.558",
+    "current_q": 0.558,
+    "matches": true
+  },
+  {
+    "analysis": "Quartile joint test: Total folate",
+    "p_exact": 0.5062808456251284,
+    "q_exact": 0.7197296048185617,
+    "q_display": "0.720",
+    "current_q": 0.72,
+    "matches": true
+  },
+  {
+    "analysis": "Quartile trend (quartile median): Total folate",
+    "p_exact": 0.5259562496751028,
+    "q_exact": 0.7197296048185617,
+    "q_display": "0.720",
+    "current_q": 0.72,
+    "matches": true
+  },
+  {
+    "analysis": "Quartile trend (quartile rank): Total folate",
+    "p_exact": 0.5563296754943512,
+    "q_exact": 0.7232285781426565,
+    "q_display": "0.723",
+    "current_q": 0.723,
+    "matches": true
+  },
+  {
+    "analysis": "Quartile Q4 vs Q1: %UMFA",
+    "p_exact": 0.04728178959771524,
+    "q_exact": 0.15600874637998402,
+    "q_display": "0.156",
+    "current_q": 0.156,
+    "matches": true
+  },
+  {
+    "analysis": "Quartile joint test: %UMFA",
+    "p_exact": 0.0718671216473114,
+    "q_exact": 0.15600874637998402,
+    "q_display": "0.156",
+    "current_q": 0.156,
+    "matches": true
+  },
+  {
+    "analysis": "Quartile trend (quartile median): %UMFA",
+    "p_exact": 0.01900428739422765,
+    "q_exact": 0.11621670254873455,
+    "q_display": "0.116",
+    "current_q": 0.116,
+    "matches": true
+  },
+  {
+    "analysis": "Quartile trend (quartile rank): %UMFA",
+    "p_exact": 0.0207521492008298,
+    "q_exact": 0.11621670254873455,
+    "q_display": "0.116",
+    "current_q": 0.116,
+    "matches": true
+  },
+  {
+    "analysis": "Threshold: UMFA > cycle 90th pct",
+    "p_exact": 0.8943785361834201,
+    "q_exact": 0.8943785361834201,
+    "q_display": "0.894",
+    "current_q": 0.894,
+    "matches": true
+  },
+  {
+    "analysis": "Threshold: UMFA > cycle 95th pct",
+    "p_exact": 0.020695197277040164,
+    "q_exact": 0.11621670254873455,
+    "q_display": "0.116",
+    "current_q": 0.116,
+    "matches": true
+  },
+  {
+    "analysis": "Threshold: UMFA >= 2 nmol/L",
+    "p_exact": 0.2450126124223922,
+    "q_exact": 0.4550234230701569,
+    "q_display": "0.455",
+    "current_q": 0.455,
+    "matches": true
+  },
+  {
+    "analysis": "Threshold: UMFA >= 5 nmol/L",
+    "p_exact": 0.0043741964986251415,
+    "q_exact": 0.11372910896425367,
+    "q_display": "0.114",
+    "current_q": 0.114,
+    "matches": true
+  }
+]

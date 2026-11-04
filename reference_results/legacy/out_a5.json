@@ -1,0 +1,507 @@
+{
+ "missingness": [
+  {
+   "Covariate": "Education",
+   "Type": "categorical",
+   "Missing, n": 1241,
+   "Missing, %": 5.1
+  },
+  {
+   "Covariate": "Income-to-poverty ratio",
+   "Type": "continuous",
+   "Missing, n": 2403,
+   "Missing, %": 9.9
+  },
+  {
+   "Covariate": "Marital status",
+   "Type": "categorical",
+   "Missing, n": 1250,
+   "Missing, %": 5.1
+  },
+  {
+   "Covariate": "Health insurance",
+   "Type": "binary",
+   "Missing, n": 41,
+   "Missing, %": 0.2
+  },
+  {
+   "Covariate": "Food security",
+   "Type": "binary",
+   "Missing, n": 774,
+   "Missing, %": 3.2
+  },
+  {
+   "Covariate": "Nativity",
+   "Type": "binary",
+   "Missing, n": 10,
+   "Missing, %": 0.0
+  },
+  {
+   "Covariate": "Smoking status",
+   "Type": "categorical",
+   "Missing, n": 280,
+   "Missing, %": 1.2
+  },
+  {
+   "Covariate": "Serum cotinine",
+   "Type": "continuous",
+   "Missing, n": 192,
+   "Missing, %": 0.8
+  },
+  {
+   "Covariate": "Alcohol",
+   "Type": "categorical",
+   "Missing, n": 0,
+   "Missing, %": 0.0
+  },
+  {
+   "Covariate": "Body mass index",
+   "Type": "continuous",
+   "Missing, n": 241,
+   "Missing, %": 1.0
+  },
+  {
+   "Covariate": "Sedentary time",
+   "Type": "continuous",
+   "Missing, n": 154,
+   "Missing, %": 0.6
+  },
+  {
+   "Covariate": "Recreational MVPA",
+   "Type": "continuous",
+   "Missing, n": 19,
+   "Missing, %": 0.1
+  },
+  {
+   "Covariate": "Sleep duration",
+   "Type": "continuous",
+   "Missing, n": 122,
+   "Missing, %": 0.5
+  },
+  {
+   "Covariate": "Chronic conditions",
+   "Type": "continuous",
+   "Missing, n": 0,
+   "Missing, %": 0.0
+  },
+  {
+   "Covariate": "Diabetes",
+   "Type": "binary",
+   "Missing, n": 13,
+   "Missing, %": 0.1
+  },
+  {
+   "Covariate": "eGFR",
+   "Type": "continuous",
+   "Missing, n": 352,
+   "Missing, %": 1.4
+  },
+  {
+   "Covariate": "Energy intake",
+   "Type": "continuous",
+   "Missing, n": 1724,
+   "Missing, %": 7.1
+  },
+  {
+   "Covariate": "Dietary folate",
+   "Type": "continuous",
+   "Missing, n": 1724,
+   "Missing, %": 7.1
+  },
+  {
+   "Covariate": "Dietary folic acid",
+   "Type": "continuous",
+   "Missing, n": 1724,
+   "Missing, %": 7.1
+  },
+  {
+   "Covariate": "Any supplement use",
+   "Type": "binary",
+   "Missing, n": 850,
+   "Missing, %": 3.5
+  },
+  {
+   "Covariate": "Fasting hours",
+   "Type": "continuous",
+   "Missing, n": 4,
+   "Missing, %": 0.0
+  },
+  {
+   "Covariate": "MEC session",
+   "Type": "categorical",
+   "Missing, n": 0,
+   "Missing, %": 0.0
+  },
+  {
+   "Covariate": "hsCRP",
+   "Type": "structurally unavailable in 2011-2014",
+   "Missing, n": 9802,
+   "Missing, %": 40.3
+  },
+  {
+   "Covariate": "Mean corpuscular volume",
+   "Type": "continuous",
+   "Missing, n": 54,
+   "Missing, %": 0.2
+  },
+  {
+   "Covariate": "Antidepressant use",
+   "Type": "structurally unavailable in Aug 2021-Aug 2023",
+   "Missing, n": 5028,
+   "Missing, %": 20.7
+  }
+ ],
+ "specifications": [
+  {
+   "analysis": "Model 1: demographic",
+   "n": 24326,
+   "OR": "1.15 (1.07-1.22)",
+   "p": "<0.001",
+   "_or": 1.1457926461637367,
+   "_lo": 1.0735879383156375,
+   "_hi": 1.2228535186997596,
+   "_p": 7.558412642320746e-05
+  },
+  {
+   "analysis": "Model 2: + socioeconomic",
+   "n": 24326,
+   "OR": "1.12 (1.05-1.20)",
+   "p": "0.001",
+   "_or": 1.1187768206158129,
+   "_lo": 1.045234366627775,
+   "_hi": 1.1974937050581727,
+   "_p": 0.0014901000298332178
+  },
+  {
+   "analysis": "Model 3: extended (primary)",
+   "n": 24326,
+   "OR": "1.11 (1.04-1.19)",
+   "p": "0.003",
+   "_or": 1.1110929557357716,
+   "_lo": 1.0365168815038346,
+   "_hi": 1.1910346838678925,
+   "_p": 0.003380990350662364
+  },
+  {
+   "analysis": "Model 5: DAG-guided reduced adjustment set",
+   "n": 24326,
+   "OR": "1.13 (1.06-1.21)",
+   "p": "<0.001",
+   "_or": 1.1285243252110215,
+   "_lo": 1.0550545088676733,
+   "_hi": 1.2071102885099603,
+   "_p": 0.0005841276718250553
+  },
+  {
+   "analysis": "Model 4: model 3 + hsCRP and MCV",
+   "n": 14524,
+   "OR": "1.09 (0.99-1.19)",
+   "p": "0.066",
+   "_or": 1.0859319828911849,
+   "_lo": 0.9943007757257005,
+   "_hi": 1.186007594739423,
+   "_p": 0.06644506612029615
+  }
+ ],
+ "cycle_mode": [
+  {
+   "analysis": "All cycles (primary)",
+   "n": 24326,
+   "OR": "1.11 (1.04-1.19)",
+   "p": "0.003",
+   "_or": 1.1110929557357716,
+   "_lo": 1.0365168815038346,
+   "_hi": 1.1910346838678925,
+   "_p": 0.003380990350662364
+  },
+  {
+   "analysis": "Excluding Aug 2021-Aug 2023 (supplement/medication collection changed)",
+   "n": 19298,
+   "OR": "1.11 (1.01-1.21)",
+   "p": "0.027",
+   "_or": 1.1055762720515692,
+   "_lo": 1.011852652464112,
+   "_hi": 1.207981113007753,
+   "_p": 0.02684059828326163
+  },
+  {
+   "analysis": "Aug 2021-Aug 2023 only",
+   "n": 5028,
+   "OR": "1.15 (1.06-1.25)",
+   "p": "0.001",
+   "_or": 1.1485121574083264,
+   "_lo": 1.0579405397927284,
+   "_hi": 1.2468377249000804,
+   "_p": 0.0011947797136199801
+  },
+  {
+   "analysis": "Excluding 2011-2012",
+   "n": 19797,
+   "OR": "1.08 (1.00-1.16)",
+   "p": "0.046",
+   "_or": 1.0785165781080264,
+   "_lo": 1.0014380456496612,
+   "_hi": 1.1615276794274845,
+   "_p": 0.04581495325608088
+  },
+  {
+   "analysis": "Reduced model with no dietary or supplement covariates",
+   "n": 24326,
+   "OR": "1.15 (1.08-1.23)",
+   "p": "<0.001",
+   "_or": 1.1522922415659411,
+   "_lo": 1.0806104063723632,
+   "_hi": 1.2287290610410129,
+   "_p": 3.213642251265984e-05
+  }
+ ],
+ "supp_fast": [
+  {
+   "analysis": "Folic-acid-containing supplement users",
+   "n": 7048,
+   "OR": "1.11 (0.98-1.25)",
+   "p": "0.111",
+   "_or": 1.105077824823259,
+   "_lo": 0.9767198116913681,
+   "_hi": 1.250304318903269,
+   "_p": 0.11136664852923694
+  },
+  {
+   "analysis": "Non-users of folic-acid-containing supplements",
+   "n": 16428,
+   "OR": "1.14 (1.03-1.26)",
+   "p": "0.010",
+   "_or": 1.1391355591949526,
+   "_lo": 1.031864856447875,
+   "_hi": 1.2575579196382365,
+   "_p": 0.010431065787102938
+  },
+  {
+   "analysis": "Non-users of any dietary supplement",
+   "n": 10933,
+   "OR": "1.13 (0.98-1.30)",
+   "p": "0.083",
+   "_or": 1.1291239231157506,
+   "_lo": 0.9839184535139179,
+   "_hi": 1.2957586364999194,
+   "_p": 0.08303522021713301
+  },
+  {
+   "analysis": "Fasted >= 8 h",
+   "n": 12983,
+   "OR": "1.13 (1.00-1.29)",
+   "p": "0.059",
+   "_or": 1.1345222178778345,
+   "_lo": 0.9950396885576399,
+   "_hi": 1.2935571089874973,
+   "_p": 0.05913271933553919
+  },
+  {
+   "analysis": "Fasted >= 10 h",
+   "n": 11621,
+   "OR": "1.12 (0.97-1.29)",
+   "p": "0.131",
+   "_or": 1.1170598190762655,
+   "_lo": 0.9670626986794546,
+   "_hi": 1.2903223763036547,
+   "_p": 0.13065212212265745
+  },
+  {
+   "analysis": "Fasted >= 12 h",
+   "n": 7322,
+   "OR": "1.14 (0.99-1.30)",
+   "p": "0.066",
+   "_or": 1.135978785006415,
+   "_lo": 0.9912104372979271,
+   "_hi": 1.3018908512529939,
+   "_p": 0.06642380326121582
+  },
+  {
+   "analysis": "Morning examination session only",
+   "n": 9315,
+   "OR": "1.14 (1.03-1.26)",
+   "p": "0.010",
+   "_or": 1.140881770002151,
+   "_lo": 1.0329653123169864,
+   "_hi": 1.2600725286734653,
+   "_p": 0.009923064407731321
+  }
+ ],
+ "fa_supp_interaction": {
+  "OR": 0.9364424861833865,
+  "lo": 0.8150664525728968,
+  "hi": 1.075893293315115,
+  "p": 0.3497053061878372
+ },
+ "mice": {
+  "OR": 1.1147407744595117,
+  "lo": 1.0409193086016446,
+  "hi": 1.1937976209817316,
+  "p": 0.0018889852513397924,
+  "m": 10
+ },
+ "fdr": [
+  {
+   "Analysis": "Outcome: PHQ-9 >= 15",
+   "p": "0.030",
+   "BH q": "0.132"
+  },
+  {
+   "Analysis": "Outcome: Suicidal ideation",
+   "p": "0.296",
+   "BH q": "0.481"
+  },
+  {
+   "Analysis": "Outcome: PHQ-9 >= 5",
+   "p": "0.685",
+   "BH q": "0.848"
+  },
+  {
+   "Analysis": "Outcome: PHQ-9 total score",
+   "p": "0.103",
+   "BH q": "0.206"
+  },
+  {
+   "Analysis": "Outcome: Somatic subscale",
+   "p": "0.268",
+   "BH q": "0.464"
+  },
+  {
+   "Analysis": "Outcome: Cognitive-affective subscale",
+   "p": "0.072",
+   "BH q": "0.156"
+  },
+  {
+   "Analysis": "Quartile Q4 vs Q1: 5-MTHF",
+   "p": "0.850",
+   "BH q": "0.884"
+  },
+  {
+   "Analysis": "Quartile joint test: 5-MTHF",
+   "p": "0.767",
+   "BH q": "0.884"
+  },
+  {
+   "Analysis": "Quartile trend (quartile median): 5-MTHF",
+   "p": "0.825",
+   "BH q": "0.884"
+  },
+  {
+   "Analysis": "Quartile trend (quartile rank): 5-MTHF",
+   "p": "0.796",
+   "BH q": "0.884"
+  },
+  {
+   "Analysis": "Quartile Q4 vs Q1: UMFA",
+   "p": "0.022",
+   "BH q": "0.116"
+  },
+  {
+   "Analysis": "Quartile joint test: UMFA",
+   "p": "0.061",
+   "BH q": "0.156"
+  },
+  {
+   "Analysis": "Quartile trend (quartile median): UMFA",
+   "p": "0.060",
+   "BH q": "0.156"
+  },
+  {
+   "Analysis": "Quartile trend (quartile rank): UMFA",
+   "p": "0.056",
+   "BH q": "0.156"
+  },
+  {
+   "Analysis": "Quartile Q4 vs Q1: Total folate",
+   "p": "0.365",
+   "BH q": "0.558"
+  },
+  {
+   "Analysis": "Quartile joint test: Total folate",
+   "p": "0.506",
+   "BH q": "0.720"
+  },
+  {
+   "Analysis": "Quartile trend (quartile median): Total folate",
+   "p": "0.526",
+   "BH q": "0.720"
+  },
+  {
+   "Analysis": "Quartile trend (quartile rank): Total folate",
+   "p": "0.556",
+   "BH q": "0.723"
+  },
+  {
+   "Analysis": "Quartile Q4 vs Q1: %UMFA",
+   "p": "0.047",
+   "BH q": "0.156"
+  },
+  {
+   "Analysis": "Quartile joint test: %UMFA",
+   "p": "0.072",
+   "BH q": "0.156"
+  },
+  {
+   "Analysis": "Quartile trend (quartile median): %UMFA",
+   "p": "0.019",
+   "BH q": "0.116"
+  },
+  {
+   "Analysis": "Quartile trend (quartile rank): %UMFA",
+   "p": "0.021",
+   "BH q": "0.116"
+  },
+  {
+   "Analysis": "Threshold: UMFA > cycle 90th pct",
+   "p": "0.894",
+   "BH q": "0.894"
+  },
+  {
+   "Analysis": "Threshold: UMFA > cycle 95th pct",
+   "p": "0.021",
+   "BH q": "0.116"
+  },
+  {
+   "Analysis": "Threshold: UMFA >= 2 nmol/L",
+   "p": "0.245",
+   "BH q": "0.455"
+  },
+  {
+   "Analysis": "Threshold: UMFA >= 5 nmol/L",
+   "p": "0.004",
+   "BH q": "0.114"
+  }
+ ],
+ "ad_as_outcome": {
+  "n": 19298,
+  "OR": "1.09 (1.00-1.18)",
+  "p": "0.043"
+ },
+ "validation": [
+  {
+   "estimate": "PHQ-9 >= 10, analytic sample, Aug 2021-Aug 2023",
+   "ours": "12.4% (11.0-14.0)",
+   "published": "same as Supplementary Table S2 by construction"
+  },
+  {
+   "estimate": "PHQ-9 >= 10, all examined adults 18+ with complete PHQ-9, MEC weight",
+   "ours": "12.7% (11.2-14.4)",
+   "published": "13.1% for ages 12+ (NCHS Data Brief 527)"
+  },
+  {
+   "estimate": "Design matrix rank",
+   "ours": "61 of 61 columns",
+   "published": "full rank required for a unique maximum likelihood solution"
+  },
+  {
+   "estimate": "Primary UMFA log-odds: IRLS vs independent quasi-Newton maximisation of the same weighted likelihood",
+   "ours": "0.105344 vs 0.105344 (largest absolute difference across the substantive coefficients 6e-08)",
+   "published": "agreement to numerical precision expected"
+  },
+  {
+   "estimate": "Primary UMFA standard error: Taylor linearisation vs delete-one-PSU jackknife",
+   "ours": "0.03496 vs 0.03498",
+   "published": "close agreement supports the variance estimator"
+  }
+ ]
+}

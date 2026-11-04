@@ -1,0 +1,56 @@
+{
+ "steps": [
+  [
+   "Participants in NHANES 2011-2012, 2013-2014, 2015-2016,\n2017-March 2020 and August 2021-August 2023",
+   57395,
+   null
+  ],
+  [
+   "Aged 18 years or older",
+   35815,
+   [
+    "Aged under 18 years",
+    21580
+   ]
+  ],
+  [
+   "Not pregnant at examination",
+   35495,
+   [
+    "Pregnant",
+    320
+   ]
+  ],
+  [
+   "Non-zero folate-subsample examination weight",
+   29616,
+   [
+    "No examination / zero analytic weight",
+    5879
+   ]
+  ],
+  [
+   "Serum folate forms measured by LC-MS/MS",
+   27003,
+   [
+    "5-MTHF or folic acid not quantified",
+    2613
+   ]
+  ],
+  [
+   "Complete PHQ-9 (all nine items)",
+   24326,
+   [
+    "Incomplete PHQ-9",
+    2677
+   ]
+  ]
+ ],
+ "by_cycle": {
+  "2011-2012": 4529,
+  "2013-2014": 5120,
+  "2015-2016": 4820,
+  "2017-Mar 2020": 4829,
+  "Aug 2021-Aug 2023": 5028
+ }
+}

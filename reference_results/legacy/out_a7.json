@@ -1,0 +1,177 @@
+{
+ "species": [
+  {
+   "Folate species": "5-Methyltetrahydrofolate",
+   "Above LOD, %": "100.0",
+   "Median, nmol/L": "33.00",
+   "Discovery OR (95% CI)": "0.96 (0.86-1.08)",
+   "p (discovery)": "0.505",
+   "Replication OR (95% CI)": "1.02 (0.92-1.14)",
+   "p (replication)": "0.665",
+   "Pooled OR (95% CI)": "1.01 (0.92-1.10)",
+   "p (pooled)": "0.873"
+  },
+  {
+   "Folate species": "Unmetabolised folic acid",
+   "Above LOD, %": "99.4",
+   "Median, nmol/L": "0.64",
+   "Discovery OR (95% CI)": "1.13 (1.05-1.21)",
+   "p (discovery)": "0.002",
+   "Replication OR (95% CI)": "1.10 (1.02-1.18)",
+   "p (replication)": "0.011",
+   "Pooled OR (95% CI)": "1.10 (1.04-1.17)",
+   "p (pooled)": "0.001"
+  },
+  {
+   "Folate species": "5-Formyltetrahydrofolate",
+   "Above LOD, %": "4.2",
+   "Median, nmol/L": "0.14",
+   "Discovery OR (95% CI)": "1.05 (1.01-1.09)",
+   "p (discovery)": "0.019",
+   "Replication OR (95% CI)": "0.94 (0.88-1.00)",
+   "p (replication)": "0.062",
+   "Pooled OR (95% CI)": "0.97 (0.92-1.02)",
+   "p (pooled)": "0.247"
+  },
+  {
+   "Folate species": "Tetrahydrofolate",
+   "Above LOD, %": "89.6",
+   "Median, nmol/L": "0.80",
+   "Discovery OR (95% CI)": "0.97 (0.87-1.08)",
+   "p (discovery)": "0.584",
+   "Replication OR (95% CI)": "0.98 (0.89-1.09)",
+   "p (replication)": "0.759",
+   "Pooled OR (95% CI)": "0.98 (0.91-1.06)",
+   "p (pooled)": "0.637"
+  },
+  {
+   "Folate species": "5,10-Methenyltetrahydrofolate",
+   "Above LOD, %": "5.3",
+   "Median, nmol/L": "0.14",
+   "Discovery OR (95% CI)": "1.08 (1.02-1.15)",
+   "p (discovery)": "0.007",
+   "Replication OR (95% CI)": "1.05 (0.99-1.12)",
+   "p (replication)": "0.109",
+   "Pooled OR (95% CI)": "1.06 (1.01-1.11)",
+   "p (pooled)": "0.021"
+  },
+  {
+   "Folate species": "MeFox",
+   "Above LOD, %": "99.8",
+   "Median, nmol/L": "1.40",
+   "Discovery OR (95% CI)": "1.05 (0.94-1.17)",
+   "p (discovery)": "0.376",
+   "Replication OR (95% CI)": "1.01 (0.91-1.11)",
+   "p (replication)": "0.919",
+   "Pooled OR (95% CI)": "1.01 (0.93-1.09)",
+   "p (pooled)": "0.784"
+  }
+ ],
+ "all_species": {
+  "Pooled 2011-2023": {
+   "n": 24320,
+   "rows": [
+    {
+     "species": "5-Methyltetrahydrofolate",
+     "OR": "0.99 (0.89-1.10)",
+     "p": "0.843"
+    },
+    {
+     "species": "Unmetabolised folic acid",
+     "OR": "1.11 (1.01-1.22)",
+     "p": "0.031"
+    },
+    {
+     "species": "5-Formyltetrahydrofolate",
+     "OR": "0.97 (0.91-1.02)",
+     "p": "0.227"
+    },
+    {
+     "species": "Tetrahydrofolate",
+     "OR": "0.95 (0.86-1.04)",
+     "p": "0.222"
+    },
+    {
+     "species": "5,10-Methenyltetrahydrofolate",
+     "OR": "1.03 (0.96-1.10)",
+     "p": "0.437"
+    },
+    {
+     "species": "MeFox",
+     "OR": "1.00 (0.92-1.09)",
+     "p": "0.946"
+    }
+   ]
+  },
+  "Out-of-screen 2011-Mar 2020": {
+   "n": 19292,
+   "rows": [
+    {
+     "species": "5-Methyltetrahydrofolate",
+     "OR": "1.01 (0.89-1.15)",
+     "p": "0.876"
+    },
+    {
+     "species": "Unmetabolised folic acid",
+     "OR": "1.11 (0.98-1.25)",
+     "p": "0.097"
+    },
+    {
+     "species": "5-Formyltetrahydrofolate",
+     "OR": "0.94 (0.88-1.00)",
+     "p": "0.067"
+    },
+    {
+     "species": "Tetrahydrofolate",
+     "OR": "0.95 (0.84-1.06)",
+     "p": "0.349"
+    },
+    {
+     "species": "5,10-Methenyltetrahydrofolate",
+     "OR": "1.02 (0.93-1.12)",
+     "p": "0.639"
+    },
+    {
+     "species": "MeFox",
+     "OR": "0.99 (0.89-1.10)",
+     "p": "0.812"
+    }
+   ]
+  },
+  "Discovery Aug 2021-Aug 2023": {
+   "n": 5028,
+   "rows": [
+    {
+     "species": "5-Methyltetrahydrofolate",
+     "OR": "0.92 (0.79-1.07)",
+     "p": "0.278"
+    },
+    {
+     "species": "Unmetabolised folic acid",
+     "OR": "1.14 (1.05-1.24)",
+     "p": "0.002"
+    },
+    {
+     "species": "5-Formyltetrahydrofolate",
+     "OR": "1.05 (1.01-1.09)",
+     "p": "0.028"
+    },
+    {
+     "species": "Tetrahydrofolate",
+     "OR": "0.94 (0.83-1.05)",
+     "p": "0.274"
+    },
+    {
+     "species": "5,10-Methenyltetrahydrofolate",
+     "OR": "1.04 (0.97-1.11)",
+     "p": "0.282"
+    },
+    {
+     "species": "MeFox",
+     "OR": "1.06 (0.94-1.19)",
+     "p": "0.365"
+    }
+   ]
+  }
+ }
+}

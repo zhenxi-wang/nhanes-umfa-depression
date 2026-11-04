@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.DS_Store
+Thumbs.db
+data/*
+!data/README.md
+outputs/*
+!outputs/README.md
+*.xpt
+*.pkl
+*.npz

@@ -1,0 +1,236 @@
+[
+  {
+    "file": "code/a0_desc.py",
+    "origin": "Original project: code/a0_desc.py",
+    "status": "Historical simple-imputation analysis or figure",
+    "changes": "Portable data and output paths where applicable; statistical logic retained."
+  },
+  {
+    "file": "code/a1_main.py",
+    "origin": "Original project: code/a1_main.py",
+    "status": "Historical simple-imputation analysis or figure",
+    "changes": "Portable data and output paths where applicable; statistical logic retained."
+  },
+  {
+    "file": "code/a2_mech.py",
+    "origin": "Original project: code/a2_mech.py",
+    "status": "Historical simple-imputation analysis or figure",
+    "changes": "Portable data and output paths where applicable; statistical logic retained."
+  },
+  {
+    "file": "code/a3_extra.py",
+    "origin": "Original project: code/a3_extra.py",
+    "status": "Historical simple-imputation analysis or figure",
+    "changes": "Portable data and output paths where applicable; statistical logic retained."
+  },
+  {
+    "file": "code/a4_tables.py",
+    "origin": "Original project: code/a4_tables.py",
+    "status": "Historical simple-imputation analysis or figure",
+    "changes": "Portable data and output paths where applicable; statistical logic retained."
+  },
+  {
+    "file": "code/a5_review.py",
+    "origin": "Original project: code/a5_review.py",
+    "status": "Historical simple-imputation analysis or figure",
+    "changes": "Portable data and output paths where applicable; statistical logic retained."
+  },
+  {
+    "file": "code/a6_review2.py",
+    "origin": "Original project: code/a6_review2.py",
+    "status": "Historical simple-imputation analysis or figure",
+    "changes": "Portable data and output paths where applicable; statistical logic retained."
+  },
+  {
+    "file": "code/a7_species.py",
+    "origin": "Original project: code/a7_species.py",
+    "status": "Historical simple-imputation analysis or figure",
+    "changes": "Portable data and output paths where applicable; statistical logic retained."
+  },
+  {
+    "file": "code/common.py",
+    "origin": "Original project: code/common.py",
+    "status": "Shared helper",
+    "changes": "Portable data and output paths where applicable; statistical logic retained."
+  },
+  {
+    "file": "code/dagfig.py",
+    "origin": "Original project: code/dagfig.py",
+    "status": "Historical simple-imputation analysis or figure",
+    "changes": "Portable data and output paths where applicable; statistical logic retained."
+  },
+  {
+    "file": "code/fig3_replication.py",
+    "origin": "Original project: code/fig3_replication.py",
+    "status": "Historical simple-imputation analysis or figure",
+    "changes": "Portable data and output paths where applicable; statistical logic retained."
+  },
+  {
+    "file": "code/figs.py",
+    "origin": "Original project: code/figs.py",
+    "status": "Historical simple-imputation analysis or figure",
+    "changes": "Portable data and output paths where applicable; statistical logic retained."
+  },
+  {
+    "file": "code/figstyle.py",
+    "origin": "Original project: code/figstyle.py",
+    "status": "Shared helper",
+    "changes": "Portable data and output paths where applicable; statistical logic retained."
+  },
+  {
+    "file": "code/flowfig.py",
+    "origin": "Original project: code/flowfig.py",
+    "status": "Historical simple-imputation analysis or figure",
+    "changes": "Portable data and output paths where applicable; statistical logic retained."
+  },
+  {
+    "file": "code/mechfig.py",
+    "origin": "Original project: code/mechfig.py",
+    "status": "Historical simple-imputation analysis or figure",
+    "changes": "Portable data and output paths where applicable; statistical logic retained."
+  },
+  {
+    "file": "code/pool.py",
+    "origin": "Original project: code/pool.py",
+    "status": "Shared helper",
+    "changes": "Portable data and output paths where applicable; statistical logic retained."
+  },
+  {
+    "file": "code/prep.py",
+    "origin": "Original project: code/prep.py",
+    "status": "Shared helper",
+    "changes": "Portable data and output paths where applicable; statistical logic retained."
+  },
+  {
+    "file": "code/screen.py",
+    "origin": "Original project: code/screen.py",
+    "status": "Historical simple-imputation analysis or figure",
+    "changes": "Portable paths; original model functions extracted into screening_model.py without numerical changes."
+  },
+  {
+    "file": "code/survey.py",
+    "origin": "Original project: code/survey.py",
+    "status": "Shared helper",
+    "changes": "Portable data and output paths where applicable; statistical logic retained."
+  },
+  {
+    "file": "code/tables.py",
+    "origin": "Original project: code/tables.py",
+    "status": "Historical simple-imputation analysis or figure",
+    "changes": "Portable data and output paths where applicable; statistical logic retained."
+  },
+  {
+    "file": "analysis/analysis_runtime.py",
+    "origin": "Revised workflow: revision_runtime.py",
+    "status": "Current 30-imputation workflow",
+    "changes": "Portable paths and imports; medication exclusion one-off integrated; configurable font lookup."
+  },
+  {
+    "file": "analysis/impute_chained_equations.py",
+    "origin": "Revised workflow: run_imputations.py",
+    "status": "Current 30-imputation workflow",
+    "changes": "Portable paths and imports; medication exclusion one-off integrated; configurable font lookup."
+  },
+  {
+    "file": "analysis/impute_analysis_samples.py",
+    "origin": "Revised workflow: run_partition_imputations.py",
+    "status": "Current 30-imputation workflow",
+    "changes": "Portable paths and imports; medication exclusion one-off integrated; configurable font lookup."
+  },
+  {
+    "file": "analysis/impute_auxiliary_models.py",
+    "origin": "Revised workflow: run_aux_imputations.py",
+    "status": "Current 30-imputation workflow",
+    "changes": "Portable paths and imports; medication exclusion one-off integrated; configurable font lookup."
+  },
+  {
+    "file": "analysis/fit_primary_models.py",
+    "origin": "Revised workflow: run_core_models.py",
+    "status": "Current 30-imputation workflow",
+    "changes": "Portable paths and imports; medication exclusion one-off integrated; configurable font lookup."
+  },
+  {
+    "file": "analysis/fit_replication_and_sensitivity.py",
+    "origin": "Revised workflow: run_replication_sensitivity.py",
+    "status": "Current 30-imputation workflow",
+    "changes": "Portable paths and imports; medication exclusion one-off integrated; configurable font lookup."
+  },
+  {
+    "file": "analysis/fit_secondary_outcomes.py",
+    "origin": "Revised workflow: run_secondary_models.py",
+    "status": "Current 30-imputation workflow",
+    "changes": "Portable paths and imports; medication exclusion one-off integrated; configurable font lookup."
+  },
+  {
+    "file": "analysis/estimate_curves_and_validate.py",
+    "origin": "Revised workflow: curves_margins_validation.py",
+    "status": "Current 30-imputation workflow",
+    "changes": "Portable paths and imports; medication exclusion one-off integrated; configurable font lookup."
+  },
+  {
+    "file": "analysis/make_main_figures.py",
+    "origin": "Revised workflow: make_publication_figures.py",
+    "status": "Current 30-imputation workflow",
+    "changes": "Portable paths and imports; medication exclusion one-off integrated; configurable font lookup."
+  },
+  {
+    "file": "analysis/audit_counts_and_multiplicity.py",
+    "origin": "New reproducibility packaging utility",
+    "status": "Documented packaging/validation utility",
+    "changes": "Recalculate raw upper-tail counts, depressive-symptom cases, weighted exposure shares, missingness, complete cases, simple imputation and BH checks."
+  },
+  {
+    "file": "analysis/audit_final_eligibility_screen.py",
+    "origin": "New reproducibility packaging utility",
+    "status": "Documented packaging/validation utility",
+    "changes": "Optional diagnostic for the historical seven-row final-eligibility screen; preserves the recorded table and reports discrepancies."
+  },
+  {
+    "file": "analysis/compare_reference_results.py",
+    "origin": "New reproducibility packaging utility",
+    "status": "Documented packaging/validation utility",
+    "changes": "Compare regenerated aggregate revised results with archived reference summaries using explicit tolerances."
+  },
+  {
+    "file": "analysis/export_result_tables.py",
+    "origin": "New reproducibility packaging utility",
+    "status": "Documented packaging/validation utility",
+    "changes": "Export 27 English CSV tables and a combined Markdown document with explicit missing-data provenance."
+  },
+  {
+    "file": "analysis/validate_primary_model.py",
+    "origin": "New reproducibility packaging utility",
+    "status": "Documented packaging/validation utility",
+    "changes": "Refit all 30 primary models and compare full-precision ORs, confidence intervals, P values and the formal contrast with references."
+  },
+  {
+    "file": "code/screening_model.py",
+    "origin": "Functions extracted unchanged from original code/screen.py",
+    "status": "Shared helper",
+    "changes": "Reusable original age/sex/race/education/income-adjusted screening model."
+  },
+  {
+    "file": "reproduce.py",
+    "origin": "New reproducibility packaging utility",
+    "status": "Documented packaging/validation utility",
+    "changes": "Command-line entry point; runs the complete revised pipeline or one named stage."
+  },
+  {
+    "file": "scripts/download_public_data.py",
+    "origin": "New reproducibility packaging utility",
+    "status": "Documented packaging/validation utility",
+    "changes": "Download 129 public CDC XPT inputs; check SAS XPORT headers and optional SHA-256 fingerprints."
+  },
+  {
+    "file": "scripts/prepare_analysis_data.py",
+    "origin": "New reproducibility packaging utility",
+    "status": "Documented packaging/validation utility",
+    "changes": "Read raw XPT files and build pooled/screening frames in a separate output location; verify analytic eligibility."
+  },
+  {
+    "file": "tests/test_statistical_helpers.py",
+    "origin": "New reproducibility packaging utility",
+    "status": "Documented packaging/validation utility",
+    "changes": "Six focused numerical tests: contrast covariance, imputation variance/df, BH ordering, joint null and spline tails."
+  }
+]

@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying manuscript when using this research code."
+title: "NHANES UMFA and depressive symptoms reproducibility code"
+type: software
+version: 0.1.0
+authors:
+  - family-names: Liu
+    given-names: Yanglin
+  - family-names: Zhang
+    given-names: Lingling
+  - family-names: Li
+    given-names: Yong
+  - family-names: Wang
+    given-names: Zhenxi
+abstract: "Survey-weighted NHANES analyses of unmetabolised folic acid, folate vitamers and depressive symptoms, including 30-dataset chained-equations multiple imputation."
+keywords:
+  - NHANES
+  - unmetabolised folic acid
+  - depressive symptoms
+  - multiple imputation
+  - complex survey
+repository-code: "https://github.com/zhenxi-wang/nhanes-umfa-depression"
+url: "https://github.com/zhenxi-wang/nhanes-umfa-depression"

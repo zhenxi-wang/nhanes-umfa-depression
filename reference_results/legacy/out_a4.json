@@ -1,0 +1,554 @@
+{
+ "table1": [
+  {
+   "Characteristic": "Unweighted n",
+   "Overall": "24326",
+   "Q1 (lowest)": "6145",
+   "Q2": "6100",
+   "Q3": "6031",
+   "Q4 (highest)": "6050"
+  },
+  {
+   "Characteristic": "UMFA, nmol/L, median (IQR)",
+   "Overall": "0.64 (0.46-0.95)",
+   "Q1 (lowest)": "0.37 (0.30-0.43)",
+   "Q2": "0.56 (0.49-0.62)",
+   "Q3": "0.77 (0.67-0.87)",
+   "Q4 (highest)": "1.46 (1.12-2.78)"
+  },
+  {
+   "Characteristic": "Age, years, mean",
+   "Overall": "47.4",
+   "Q1 (lowest)": "43.7",
+   "Q2": "44.9",
+   "Q3": "48.4",
+   "Q4 (highest)": "52.5"
+  },
+  {
+   "Characteristic": "Female, %",
+   "Overall": "50.5",
+   "Q1 (lowest)": "43.1",
+   "Q2": "49.3",
+   "Q3": "54.8",
+   "Q4 (highest)": "54.6"
+  },
+  {
+   "Characteristic": "  Mexican American, %",
+   "Overall": "8.4",
+   "Q1 (lowest)": "11.6",
+   "Q2": "9.8",
+   "Q3": "7.3",
+   "Q4 (highest)": "5.1"
+  },
+  {
+   "Characteristic": "  Other Hispanic, %",
+   "Overall": "6.9",
+   "Q1 (lowest)": "8.5",
+   "Q2": "7.3",
+   "Q3": "6.6",
+   "Q4 (highest)": "5.1"
+  },
+  {
+   "Characteristic": "  NH Black, %",
+   "Overall": "10.7",
+   "Q1 (lowest)": "9.2",
+   "Q2": "10.3",
+   "Q3": "11.5",
+   "Q4 (highest)": "11.9"
+  },
+  {
+   "Characteristic": "  NH Asian, %",
+   "Overall": "5.0",
+   "Q1 (lowest)": "9.5",
+   "Q2": "4.1",
+   "Q3": "3.3",
+   "Q4 (highest)": "3.2"
+  },
+  {
+   "Characteristic": "  Other/Multiracial, %",
+   "Overall": "4.1",
+   "Q1 (lowest)": "4.3",
+   "Q2": "4.1",
+   "Q3": "4.8",
+   "Q4 (highest)": "3.3"
+  },
+  {
+   "Characteristic": "  NH White, %",
+   "Overall": "64.9",
+   "Q1 (lowest)": "56.9",
+   "Q2": "64.4",
+   "Q3": "66.5",
+   "Q4 (highest)": "71.5"
+  },
+  {
+   "Characteristic": "  <High school, %",
+   "Overall": "12.1",
+   "Q1 (lowest)": "13.6",
+   "Q2": "12.2",
+   "Q3": "11.4",
+   "Q4 (highest)": "11.3"
+  },
+  {
+   "Characteristic": "  High school/GED, %",
+   "Overall": "23.8",
+   "Q1 (lowest)": "21.7",
+   "Q2": "25.3",
+   "Q3": "24.8",
+   "Q4 (highest)": "23.2"
+  },
+  {
+   "Characteristic": "  Some college, %",
+   "Overall": "32.0",
+   "Q1 (lowest)": "29.4",
+   "Q2": "32.5",
+   "Q3": "33.0",
+   "Q4 (highest)": "32.9"
+  },
+  {
+   "Characteristic": "  College graduate+, %",
+   "Overall": "32.1",
+   "Q1 (lowest)": "35.3",
+   "Q2": "30.0",
+   "Q3": "30.8",
+   "Q4 (highest)": "32.6"
+  },
+  {
+   "Characteristic": "Income-to-poverty ratio, mean",
+   "Overall": "3.03",
+   "Q1 (lowest)": "3.07",
+   "Q2": "2.99",
+   "Q3": "3.00",
+   "Q4 (highest)": "3.07"
+  },
+  {
+   "Characteristic": "  Widowed/divorced/separated, %",
+   "Overall": "18.9",
+   "Q1 (lowest)": "15.4",
+   "Q2": "16.6",
+   "Q3": "20.0",
+   "Q4 (highest)": "23.5"
+  },
+  {
+   "Characteristic": "  Never married, %",
+   "Overall": "18.8",
+   "Q1 (lowest)": "22.1",
+   "Q2": "20.0",
+   "Q3": "17.0",
+   "Q4 (highest)": "15.9"
+  },
+  {
+   "Characteristic": "  Married/partnered, %",
+   "Overall": "62.3",
+   "Q1 (lowest)": "62.5",
+   "Q2": "63.4",
+   "Q3": "62.9",
+   "Q4 (highest)": "60.6"
+  },
+  {
+   "Characteristic": "US-born, %",
+   "Overall": "83.1",
+   "Q1 (lowest)": "75.6",
+   "Q2": "83.2",
+   "Q3": "85.2",
+   "Q4 (highest)": "88.3"
+  },
+  {
+   "Characteristic": "Insured, %",
+   "Overall": "85.7",
+   "Q1 (lowest)": "81.6",
+   "Q2": "84.5",
+   "Q3": "86.3",
+   "Q4 (highest)": "90.3"
+  },
+  {
+   "Characteristic": "Food insecure, %",
+   "Overall": "16.1",
+   "Q1 (lowest)": "16.2",
+   "Q2": "17.6",
+   "Q3": "16.5",
+   "Q4 (highest)": "14.3"
+  },
+  {
+   "Characteristic": "  Smoking: Never, %",
+   "Overall": "58.1",
+   "Q1 (lowest)": "57.2",
+   "Q2": "58.4",
+   "Q3": "59.4",
+   "Q4 (highest)": "57.2"
+  },
+  {
+   "Characteristic": "  Smoking: Former, %",
+   "Overall": "24.9",
+   "Q1 (lowest)": "24.7",
+   "Q2": "23.5",
+   "Q3": "23.4",
+   "Q4 (highest)": "28.1"
+  },
+  {
+   "Characteristic": "  Smoking: Current, %",
+   "Overall": "17.0",
+   "Q1 (lowest)": "18.2",
+   "Q2": "18.1",
+   "Q3": "17.2",
+   "Q4 (highest)": "14.7"
+  },
+  {
+   "Characteristic": "BMI, kg/m2, mean",
+   "Overall": "29.4",
+   "Q1 (lowest)": "29.1",
+   "Q2": "29.2",
+   "Q3": "29.7",
+   "Q4 (highest)": "29.6"
+  },
+  {
+   "Characteristic": "Obesity (BMI>=30), %",
+   "Overall": "39.7",
+   "Q1 (lowest)": "38.2",
+   "Q2": "38.2",
+   "Q3": "40.3",
+   "Q4 (highest)": "42.1"
+  },
+  {
+   "Characteristic": "Sleep, h/night, mean",
+   "Overall": "7.4",
+   "Q1 (lowest)": "7.4",
+   "Q2": "7.3",
+   "Q3": "7.4",
+   "Q4 (highest)": "7.4"
+  },
+  {
+   "Characteristic": "Chronic conditions, mean",
+   "Overall": "0.54",
+   "Q1 (lowest)": "0.41",
+   "Q2": "0.43",
+   "Q3": "0.57",
+   "Q4 (highest)": "0.74"
+  },
+  {
+   "Characteristic": "Diabetes, %",
+   "Overall": "10.4",
+   "Q1 (lowest)": "8.4",
+   "Q2": "9.4",
+   "Q3": "10.5",
+   "Q4 (highest)": "13.5"
+  },
+  {
+   "Characteristic": "eGFR, mL/min/1.73m2, mean",
+   "Overall": "96.3",
+   "Q1 (lowest)": "101.9",
+   "Q2": "99.9",
+   "Q3": "93.9",
+   "Q4 (highest)": "89.8"
+  },
+  {
+   "Characteristic": "Any dietary supplement, %",
+   "Overall": "55.8",
+   "Q1 (lowest)": "44.6",
+   "Q2": "47.9",
+   "Q3": "58.3",
+   "Q4 (highest)": "72.2"
+  },
+  {
+   "Characteristic": "Folic-acid-containing supplement, %",
+   "Overall": "32.6",
+   "Q1 (lowest)": "16.0",
+   "Q2": "24.7",
+   "Q3": "34.2",
+   "Q4 (highest)": "54.7"
+  },
+  {
+   "Characteristic": "Supplemental folic acid, ug/d, mean",
+   "Overall": "132.0",
+   "Q1 (lowest)": "52.0",
+   "Q2": "80.8",
+   "Q3": "137.3",
+   "Q4 (highest)": "255.6"
+  },
+  {
+   "Characteristic": "Dietary folic acid, ug/d, GM",
+   "Overall": "73.8",
+   "Q1 (lowest)": "41.6",
+   "Q2": "75.8",
+   "Q3": "90.5",
+   "Q4 (highest)": "102.5"
+  },
+  {
+   "Characteristic": "Energy intake, kcal/d, mean",
+   "Overall": "2166",
+   "Q1 (lowest)": "2210",
+   "Q2": "2194",
+   "Q3": "2145",
+   "Q4 (highest)": "2117"
+  },
+  {
+   "Characteristic": "Fasting, hours, mean",
+   "Overall": "8.0",
+   "Q1 (lowest)": "8.8",
+   "Q2": "8.3",
+   "Q3": "8.1",
+   "Q4 (highest)": "6.7"
+  },
+  {
+   "Characteristic": "5-MTHF, nmol/L, GM",
+   "Overall": "33.4",
+   "Q1 (lowest)": "25.0",
+   "Q2": "29.3",
+   "Q3": "35.3",
+   "Q4 (highest)": "47.9"
+  },
+  {
+   "Characteristic": "Total serum folate, nmol/L, GM",
+   "Overall": "36.0",
+   "Q1 (lowest)": "26.6",
+   "Q2": "31.1",
+   "Q3": "37.5",
+   "Q4 (highest)": "53.5"
+  },
+  {
+   "Characteristic": "RBC folate, nmol/L, GM",
+   "Overall": "1116",
+   "Q1 (lowest)": "949",
+   "Q2": "1020",
+   "Q3": "1156",
+   "Q4 (highest)": "1383"
+  },
+  {
+   "Characteristic": "MeFox, nmol/L, GM",
+   "Overall": "1.46",
+   "Q1 (lowest)": "1.05",
+   "Q2": "1.31",
+   "Q3": "1.61",
+   "Q4 (highest)": "2.05"
+  },
+  {
+   "Characteristic": "PHQ-9 score, mean",
+   "Overall": "3.25",
+   "Q1 (lowest)": "3.12",
+   "Q2": "3.38",
+   "Q3": "3.28",
+   "Q4 (highest)": "3.24"
+  },
+  {
+   "Characteristic": "PHQ-9 >=10, %",
+   "Overall": "9.0",
+   "Q1 (lowest)": "7.7",
+   "Q2": "9.6",
+   "Q3": "9.4",
+   "Q4 (highest)": "9.3"
+  },
+  {
+   "Characteristic": "PHQ-9 >=15, %",
+   "Overall": "3.1",
+   "Q1 (lowest)": "2.6",
+   "Q2": "3.3",
+   "Q3": "3.2",
+   "Q4 (highest)": "3.3"
+  },
+  {
+   "Characteristic": "Suicidal ideation, %",
+   "Overall": "3.7",
+   "Q1 (lowest)": "3.6",
+   "Q2": "3.9",
+   "Q3": "3.6",
+   "Q4 (highest)": "3.6"
+  }
+ ],
+ "robust_extra": [
+  {
+   "analysis": "Main (model 3)",
+   "n": 24326,
+   "OR": "1.11 (1.04-1.19)",
+   "p": "0.003",
+   "_or": 1.1110929557357716,
+   "_lo": 1.0365168815038346,
+   "_hi": 1.1910346838678925,
+   "_p": 0.003380990350662364
+  },
+  {
+   "analysis": "Excluding UMFA >99th percentile",
+   "n": 24082,
+   "OR": "1.13 (1.03-1.25)",
+   "p": "0.012",
+   "_or": 1.134021616097277,
+   "_lo": 1.0286768429357718,
+   "_hi": 1.250154540376073,
+   "_p": 0.012063875035543466
+  },
+  {
+   "analysis": "Additionally adjusting for RBC folate",
+   "n": 24127,
+   "OR": "1.10 (1.02-1.18)",
+   "p": "0.009",
+   "_or": 1.1001764359228277,
+   "_lo": 1.024708509412512,
+   "_hi": 1.1812024385879238,
+   "_p": 0.009042866737920588
+  },
+  {
+   "analysis": "Additionally adjusting for self-rated health",
+   "n": 24326,
+   "OR": "1.09 (1.01-1.16)",
+   "p": "0.019",
+   "_or": 1.0858550024564493,
+   "_lo": 1.0138920316468865,
+   "_hi": 1.1629256859278094,
+   "_p": 0.01912797499375139
+  },
+  {
+   "analysis": "Age >=20 only",
+   "n": 23089,
+   "OR": "1.12 (1.04-1.20)",
+   "p": "0.003",
+   "_or": 1.1164558238910802,
+   "_lo": 1.040544283149704,
+   "_hi": 1.1979053913277606,
+   "_p": 0.0025336363821596083
+  },
+  {
+   "analysis": "Non-Hispanic White only",
+   "n": 10377,
+   "OR": "1.14 (1.04-1.25)",
+   "p": "0.007",
+   "_or": 1.1373579327311734,
+   "_lo": 1.0375730238162784,
+   "_hi": 1.2467393016721116,
+   "_p": 0.006549321129885267
+  }
+ ],
+ "ordinal_trend": {
+  "UMFA": {
+   "OR": 1.0667711213164508,
+   "lo": 0.9983332002484587,
+   "hi": 1.1399006113305052,
+   "p": 0.05591583387359705
+  },
+  "%UMFA": {
+   "OR": 1.0841274514749246,
+   "lo": 1.0126925250558116,
+   "hi": 1.1606013690845993,
+   "p": 0.0207521492008298
+  },
+  "5-MTHF": {
+   "OR": 1.009508151500527,
+   "lo": 0.9387575740944784,
+   "hi": 1.0855909300428677,
+   "p": 0.7963535455665688
+  },
+  "Total folate": {
+   "OR": 1.0210808251606747,
+   "lo": 0.9518496697388449,
+   "hi": 1.0953473900945512,
+   "p": 0.5563296754943512
+  }
+ },
+ "unweighted": {
+  "OR": 1.0898568432046811,
+  "lo": 1.0365191418735202,
+  "hi": 1.1459392216656341,
+  "p": 0.000992019143074897
+ },
+ "smd": [
+  {
+   "Variable": "Age",
+   "Q1": 43.74,
+   "Q4": 52.53,
+   "SMD": 0.51
+  },
+  {
+   "Variable": "Female",
+   "Q1": 0.43,
+   "Q4": 0.55,
+   "SMD": 0.23
+  },
+  {
+   "Variable": "Income-to-poverty ratio",
+   "Q1": 3.07,
+   "Q4": 3.07,
+   "SMD": 0.002
+  },
+  {
+   "Variable": "Food insecure",
+   "Q1": 0.16,
+   "Q4": 0.14,
+   "SMD": -0.052
+  },
+  {
+   "Variable": "BMI",
+   "Q1": 29.05,
+   "Q4": 29.64,
+   "SMD": 0.084
+  },
+  {
+   "Variable": "Sleep",
+   "Q1": 7.38,
+   "Q4": 7.44,
+   "SMD": 0.039
+  },
+  {
+   "Variable": "Chronic conditions",
+   "Q1": 0.41,
+   "Q4": 0.74,
+   "SMD": 0.382
+  },
+  {
+   "Variable": "Diabetes",
+   "Q1": 0.08,
+   "Q4": 0.13,
+   "SMD": 0.164
+  },
+  {
+   "Variable": "eGFR",
+   "Q1": 101.93,
+   "Q4": 89.75,
+   "SMD": -0.579
+  },
+  {
+   "Variable": "Any supplement",
+   "Q1": 0.45,
+   "Q4": 0.72,
+   "SMD": 0.582
+  },
+  {
+   "Variable": "Folic-acid supplement",
+   "Q1": 0.16,
+   "Q4": 0.55,
+   "SMD": 0.885
+  },
+  {
+   "Variable": "Supplemental folic acid",
+   "Q1": 51.96,
+   "Q4": 255.6,
+   "SMD": 0.704
+  },
+  {
+   "Variable": "Dietary folic acid",
+   "Q1": 129.81,
+   "Q4": 201.92,
+   "SMD": 0.401
+  },
+  {
+   "Variable": "Energy intake",
+   "Q1": 2210.47,
+   "Q4": 2117.22,
+   "SMD": -0.095
+  },
+  {
+   "Variable": "Fasting hours",
+   "Q1": 8.82,
+   "Q4": 6.71,
+   "SMD": -0.407
+  },
+  {
+   "Variable": "5-MTHF",
+   "Q1": 28.43,
+   "Q4": 55.02,
+   "SMD": 0.901
+  },
+  {
+   "Variable": "PHQ-9 score",
+   "Q1": 3.12,
+   "Q4": 3.24,
+   "SMD": 0.027
+  }
+ ]
+}
